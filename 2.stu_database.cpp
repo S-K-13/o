@@ -94,15 +94,15 @@ public:
     
     void displayvalue()
     {
-        cout<<"name:"<<this-> name ;
-        cout<<"rollno:"<<this-> rollno ;
-        cout<<"classname:"<<this-> classname;
-        cout<<"division:"<<this-> division;
-        cout<<"DOB(dd/mm/yyyy):"<<this-> DOB;
-        cout<<"bloodgroup:"<<this-> bloodgrp;
-        cout<<"address:"<<this-> address;
-        cout<<"telephone:"<<this-> telephone;
-        cout<<"license number:"<<this-> licenseNo;
+        cout<<"name:"<<this-> name<<endl ;
+        cout<<"rollno:"<<this-> rollno<<endl ;
+        cout<<"classname:"<<this-> classname<<endl ;
+        cout<<"division:"<<this-> division<<endl ;
+        cout<<"DOB(dd/mm/yyyy):"<<this-> DOB<<endl ;
+        cout<<"bloodgroup:"<<this-> bloodgrp<<endl ;
+        cout<<"address:"<<this-> address<<endl ;
+        cout<<"telephone:"<<this-> telephone<<endl ;
+        cout<<"license number:"<<this-> licenseNo<<endl ;
     }
 };
 int stu_database::studentcount=0;
